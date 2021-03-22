@@ -16,6 +16,38 @@
     color: white;
 }
 
+.blue{
+    color: blue;
+}
+
+.grey{
+    color: #BCCEFF;
+}
+
+/* button */
+
+.btn.cc-btn-white{
+    background-color: white;
+    border-color: #579AFF;
+    color: #579AFF;
+}
+
+.btn.cc-btn-blue{
+    background-color: #579AFF;
+    border-color: #579AFF;
+    color: white;
+    width: 100%;
+}
+
+.btn.cc-btn-google{
+    background-color: white;
+    border-color: transparent;
+    color: grey;
+    box-shadow: 1px 1px 1px lightgrey;
+    width: 100%;
+    margin-top: 20px;
+}
+
 /* header */
 
 .cc-header{
@@ -24,12 +56,27 @@
     line-height: 80px;
 }
 
+.cc-header .logo {
+    height: 40px;
+}
+
+.cc-header a{
+    text-decoration: none;
+    color: #031C4E;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
 /* main */
 
 /* products */
 
 #products{
     background-color: #054AFF;
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: 120%;
+    background-position: bottom;
+    
 }
 
 .cc-container-products{
@@ -38,10 +85,33 @@
     padding: 20px 0;
 }
 
+#products h1{font-size: 60px;}
+
+#products p{
+    font-size: 17px;
+}
+
+#products h3.blue{
+    margin-bottom: 20px;
+}
+
+#products .cc-container-products p{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
 /* customers */
 
 #customers{
     background-color: #F3F5F9;
+}
+
+#customers h5{
+    padding-bottom: 30px;
+}
+
+#customers img{
+    padding-bottom: 30px;
 }
 
 /* configuration */

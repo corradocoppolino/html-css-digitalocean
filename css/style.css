@@ -20,8 +20,21 @@
     color: blue;
 }
 
+.blue-text{
+    color: #000047;
+}
+
 .grey{
     color: #BCCEFF;
+}
+
+.titolo{
+    font-size: 40px;
+}
+
+.sottotitolo{
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 /* button */
@@ -115,24 +128,16 @@
 
 /* configuration */
 
-#configuration .titolo{
-    font-size: 40px;
-}
-
-#configuration .sottotitolo{
-    font-size: 20px;
-    padding-bottom: 50px;
-}
-
 #configuration .cc-border-left{
-    border-left: 1px solid lightgrey;
-    color: lightgrey;
+    border-left: 1px solid grey;
+    color: grey;
     margin-left: 20px;
 }
 
 #configuration .cc-border-left p{
     padding-bottom: 5px;
     padding-top: 5px;
+    font-size: 15px;
 }
 
 /* developers */
@@ -141,13 +146,64 @@
     background-color: #F3F5F9;
 }
 
+#developers .titolo{
+    padding-bottom: 20px;
+}
+
+#developers .carousel{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#developers .freccia-sinistra{
+    font-size: 50px;
+    padding: 30px;
+    color: #6F7A97;
+}
+
+#developers .freccia-destra{
+    font-size: 50px;
+    padding: 30px;
+    color: #021C4E;
+}
+
+#developers .circle{
+    color: blue;
+}
+
+#developers .circle:active, #developers .circle:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#developers .visited{
+    background-color: blue;
+    border-radius: 50%;
+}
+
 /* features */
+
+#features .titolo{
+    margin-bottom: 50px;
+}
+
+#features h5{
+    font-size: 18px;
+}
+
+#features a{
+    text-decoration: none;
+}
 
 /* service */
 
 #service{
     background-color: #001E99;
     color: white;
+}
+
+#service .cc-border-bottom{
+    border-bottom: 1px solid white;
 }
 
 /* love */

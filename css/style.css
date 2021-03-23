@@ -74,9 +74,8 @@
 #products{
     background-color: #054AFF;
     background-image: url(../img/bg-banner-home.jpg);
-    background-size: 120%;
     background-position: bottom;
-    
+    background-size: cover;
 }
 
 .cc-container-products{
@@ -115,6 +114,26 @@
 }
 
 /* configuration */
+
+#configuration .titolo{
+    font-size: 40px;
+}
+
+#configuration .sottotitolo{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#configuration .cc-border-left{
+    border-left: 1px solid lightgrey;
+    color: lightgrey;
+    margin-left: 20px;
+}
+
+#configuration .cc-border-left p{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 
 /* developers */
 

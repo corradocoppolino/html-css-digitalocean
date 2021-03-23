@@ -37,6 +37,37 @@
     padding-bottom: 50px;
 }
 
+.circle{
+    color: blue;
+}
+
+.circle:active, #developers .circle:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.circle.visited{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.carousel{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.freccia-sinistra{
+    font-size: 50px;
+    padding: 30px;
+    color: #6F7A97;
+}
+
+.freccia-destra{
+    font-size: 50px;
+    padding: 30px;
+    color: #021C4E;
+}
+
 /* button */
 
 .btn.cc-btn-white{
@@ -150,37 +181,6 @@
     padding-bottom: 20px;
 }
 
-#developers .carousel{
-    width: 50%;
-    margin-bottom: 20px;
-}
-
-#developers .freccia-sinistra{
-    font-size: 50px;
-    padding: 30px;
-    color: #6F7A97;
-}
-
-#developers .freccia-destra{
-    font-size: 50px;
-    padding: 30px;
-    color: #021C4E;
-}
-
-#developers .circle{
-    color: blue;
-}
-
-#developers .circle:active, #developers .circle:hover{
-    background-color: blue;
-    border-radius: 50%;
-}
-
-#developers .visited{
-    background-color: blue;
-    border-radius: 50%;
-}
-
 /* features */
 
 #features .titolo{
@@ -206,21 +206,80 @@
     border-bottom: 1px solid white;
 }
 
+#service h5, #service p, #service a {
+    line-height: 20px;
+    vertical-align: middle; 
+}
+
 /* love */
 #love{
     background-color: #F3F5F9;
 }
 
-.box{
-    height: 200px;
-    width: 50%;
+#love .titolo{
+    margin-bottom: 100px;
+}
+
+#love .box{
     background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+#love .box .logo{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#love .box .p-box{
+    font-size: 25px;
+    color:#6F7A97;
+}
+
+#love .box h6{
+    color: #031C4E;
+    font-size: 15px;
+}
+
+#love .box .founder{
+    color: #021C4E;
+    padding-top: -20px;
+    padding-bottom: 20px;
+}
+
+#love .box a{
+    font-size: 15px;
+}
+
+#love .freccie-assolute{
+    position: relative;
+}
+
+#love .freccia-destra{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+#love .freccia-sinistra{
+    position: absolute;
+    top: 50%;
+    transform: translate(-100%,-50%);
 }
 
 /* account */
 
 #account{
     background-color: #054AFF;
+}
+
+#account h3{
+    color: white;
+    padding-bottom: 15px;
 }
 
 /* footer */
